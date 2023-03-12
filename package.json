@@ -1,0 +1,30 @@
+{
+	"name": "cloudflare-access-jwt",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon -x \"cls && node\" ./src/index.js",
+		"test": "nodemon -x \"cls && node\" ./test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rr5050/node-cloudflare-access-jwt.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rr5050/node-cloudflare-access-jwt/issues"
+	},
+	"homepage": "https://github.com/rr5050/node-cloudflare-access-jwt#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"fs": "^0.0.1-security"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.21"
+	}
+}
